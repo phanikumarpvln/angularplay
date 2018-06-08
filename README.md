@@ -1,2 +1,0 @@
-# angularplay
-angular projects
