@@ -1,23 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<div class="continer">
+  <div class="row">
+    <div class="col-xs-12">
+      <div>
+        <h1>
+          <input type="text" [(ngModel)]="name1">
+          <p>{{ name1 }}</p>
+        </h1>
+      </div> 
+      <app-client></app-client>
+      <app-server></app-server>
+    </div>
+  </div>
+</div>
 <div style="text-align:center">
-  <h1>
-    Hi this is  {{ title }}!
-  
-  </h1>
- 
- 
+  <h5 class="some">
+    Hi this is  {{ title }}!  
+  </h5> 
 </div>
-<div>
-  <h2>
-    <input type="text" [(ngModel)]="name1">
-    <p>{{ name1 }}</p>
-  </h2>
-</div>
-<div>
-I am in the app component....................!
-</div>
-<hr>
-<p></p>
-<app-client></app-client>
-<app-server></app-server>
+
 

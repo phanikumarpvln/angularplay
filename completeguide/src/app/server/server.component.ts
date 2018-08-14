@@ -10,5 +10,10 @@ templateUrl:'./server.component.html'
 //Export this class to another component
 export class ServerComponent
 {
-
+serverId:number=10;
+serverstatus:string ='Off Line';
+getServerStatus()
+{
+  return this.serverstatus;  
+}
 }
