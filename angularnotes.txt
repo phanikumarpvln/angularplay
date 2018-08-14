@@ -1,0 +1,34 @@
+what is data binding?
+  OR
+string interpolation..???
+
+Ans:Data binding is communication 
+between "TypeScript Code" 
+  and
+
+Template ( HTML)"
+
+imp:
+
+String Interpolation {{data}}
+Property Binding [porperty]="data"
+
+Event Binding (event)="expression"
+
+Two-way-binding [(ngModel)]="data"
+
+http://upanishattulu.blogspot.com/
+
+
+
+Property Binding??
+
+[] brackets indicates property binding in angular
+
+What is component???
+Components are basically classes that interact with the .html file of the component, which gets displayed on the browser.
+
+
+
+
+
